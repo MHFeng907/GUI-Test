@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<VerificationPoint type="Visual" version="5">
+    <Description/>
+    <Verification object="rect4_button_QGraphicsPathItem_3">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element id="193e9463324" class="QGraphicsPathItem">
+                            <image type="PNG">iVBORw0KGgoAAAANSUhEUgAAABMAAACQCAIAAABlFsftAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADe0lEQVRoge2Zz0syQRjHZ1SkTDBCIijqlNJBIQi8WXjoVEQeKugSde/krUN26yoSdCvoFPQXSEW3rlERdYgOQlittezYsqG7voeVp9F9zGbfKC3ntM/X+fg8Mzvz3V+0XC6T6nZ3d7e3t2cYhmEYsVhsYmKCYI0ODQ3VSJqmPTw8mMfd3d0+nw8l7Te6uLgIga7rsiwXi8WjoyNTCYVC4XAYJxljELy9vV1eXhYKhampKVNJJBLr6+so6bBKTqcTjg3DqFctQjoc72Lzk/bHSSm1SfLV6rouQP70Wfmuavm5te7ej8jWndvvOiufzOnK5/MQlEolQgjvL5qm8R2qyPv7+xqJ76qqqrVDhQyFQhCYDhYMBkHxer18B7611tx+KcnvFbFqKaUAi+Uk3HYRJmGof4UUOyvkh+f2l1cLpNh1hTTvGkKcWpZlXhFw6sfHR0il67qAUwcCAY/HA6KAU5O2mwiQ9le8fY8n9bdLg5wfpG1M1htq42rt5xQjP/MQ0DzVttbc2q/Wfk774/zMIwvu1MViEURJkrxeL0KiTq1pGoS5XM7tdiMk6tR+vx/E4eHhQCBgJdtr6P9ztl2zEflXqhVbCfavK63lmj99VurlxJ1aVVUQFUVBb6txp1YUBcJ8Po/eVuNOfXFxAWJ/fz96W91ac9s81bbWim/fa4rk/M3Vfs3V4XesIdyp+VfVqqoKOLUkSRAWCgUBp+bffvh8PgGnFptbXddfX18rap17zWw2W0uenp5Go9G1tTUzRF8bX19fh8PhlZWVCq8oCnyOpJRub29LknRzcwPk3NwcY4wxNjk5aSodHR37+/sOSik8yJTL5VQqZRiGdSUcHh5mMhlTcblcY2NjhDGWzWZ7enqgazqdvr29hTAej7+8vIyMjICysbHBGCNmJel0Gn7w+/3n5+cQzszMpFIpCAcHB5+ent5JWZZHR0fhZ/5D7Pj4OP/ItLu7ayIVkjF2fHxMGrVIJKIoSi3JGFtYWPiYPDk5gc5V5NXVVVdXVz1sfn6e71y1+np7e5eWllCss7MzmUzySu26nZ2d5b/MQFtdXR0YGOAV5Kv08/NzPB7nO/X19Z2dndUMBNkr0Wh0enqaV5LJpHX8+C7b3NzkQ7fbbfUUnMzlcny4vLwciUQODg6qeH6iJUna2tqKxWLo3xFCgsHgzs6OaVT/AGogIaSqLCoQAAAAAElFTkSuQmCC</image>
+                            <superclass>
+                                <class>QAbstractGraphicsShapeItem</class>
+                                <class>QGraphicsItem</class>
+                            </superclass>
+                            <abstractProperties>
+                                <visual isTopLevel="1"/>
+                                <geometry isRelative="0">
+                                    <x>381</x>
+                                    <y>340</y>
+                                    <height>115</height>
+                                    <width>15</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="rotation">
+                                    <string>0</string>
+                                </property>
+                                <property name="toolTip"/>
+                                <property name="selected">
+                                    <string>false</string>
+                                </property>
+                                <property name="obscured">
+                                    <string>false</string>
+                                </property>
+                                <property name="userType">
+                                    <string>-1</string>
+                                </property>
+                                <property name="zValue">
+                                    <string>9.98244e+08</string>
+                                </property>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="type">
+                                    <string>2</string>
+                                </property>
+                                <property name="scale">
+                                    <string>1</string>
+                                </property>
+                                <property name="opacity">
+                                    <string>1</string>
+                                </property>
+                            </properties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying"/>
+            <check type="content"/>
+            <check type="geometry">
+                <PropertyVerification element-id="193e9463324">
+                    <VerifyProperty type="equal" name="x"/>
+                    <VerifyProperty type="equal" name="y"/>
+                    <VerifyProperty type="equal" name="width"/>
+                    <VerifyProperty type="equal" name="height"/>
+                </PropertyVerification>
+            </check>
+        </visual>
+    </Verification>
+</VerificationPoint>

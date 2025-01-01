@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+
+import names
+
+
+def main():
+    startApplication("FlowelementChart")
+    clickButton(waitForObject(names.mainWidget_rect4_button_QPushButton))
+    clickButton(waitForObject(names.mainWidget_rhombus_button_QPushButton))
+    mouseClick(waitForObject(names.rect4_button_QGraphicsPathItem), 88, 57, Qt.NoModifier, Qt.LeftButton)
+    dragItemBy(waitForObject(names.rect4_button_QGraphicsPathItem), 100, 56, 458, 261, 1, Qt.LeftButton)
+    mouseClick(waitForObject(names.o_QInputDialog), 232, 400, Qt.NoModifier, Qt.LeftButton)
+    test.vp("VP1_before")
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    sendEvent("QWheelEvent", waitForObject(names.o_QInputDialog), 624, 358, -120, 0, 2)
+    test.vp("VP1_down")
+    scrollTo(waitForObject(names.mainWidget_QScrollBar), 1102)
+    test.vp("VP1_right")
+    scrollTo(waitForObject(names.mainWidget_QScrollBar_2), 0)
+    test.vp("VP1_up")
+    scrollTo(waitForObject(names.mainWidget_QScrollBar), 0)
+    test.vp("VP1_left")
+    test.vp("VP1_before")

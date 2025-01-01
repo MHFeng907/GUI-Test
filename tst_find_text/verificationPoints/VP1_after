@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VerificationPoint type="Visual" version="5">
+    <Description />
+    <Verification object="rect4_button_QGraphicsPathItem_2">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="QGraphicsPathItem" id="193eee9d44a">
+                            <image type="PNG">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</image>
+                            <superclass>
+                                <class>QAbstractGraphicsShapeItem</class>
+                                <class>QGraphicsItem</class>
+                            </superclass>
+                            <abstractProperties>
+                                <visual isTopLevel="1" />
+                                <geometry isRelative="0">
+                                    <x>252</x>
+                                    <y>241</y>
+                                    <height>103</height>
+                                    <width>269</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="toolTip" />
+                                <property name="obscured">
+                                    <string>false</string>
+                                </property>
+                                <property name="opacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="scale">
+                                    <string>1</string>
+                                </property>
+                                <property name="selected">
+                                    <string>false</string>
+                                </property>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="rotation">
+                                    <string>0</string>
+                                </property>
+                                <property name="zValue">
+                                    <string>4</string>
+                                </property>
+                                <property name="userType">
+                                    <string>-1</string>
+                                </property>
+                                <property name="type">
+                                    <string>2</string>
+                                </property>
+                            </properties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying" />
+            <check type="content" />
+            <check type="geometry">
+                <PropertyVerification element-id="193eee9d44a">
+                    <VerifyProperty name="height" type="equal" />
+                    <VerifyProperty name="width" type="equal" />
+                    <VerifyProperty name="x" type="equal" />
+                    <VerifyProperty name="y" type="equal" />
+                </PropertyVerification>
+            </check>
+            <check type="screenshot">
+                <PropertyVerification element-id="193eee9d44a">
+                    <Algorithm description="Correlation" name="correlationcompare">
+                        <Parameter description="Threshold" name="threshold">0.95</Parameter>
+                    </Algorithm>
+                </PropertyVerification>
+            </check>
+            <check type="subtree" />
+        </visual>
+    </Verification>
+</VerificationPoint>

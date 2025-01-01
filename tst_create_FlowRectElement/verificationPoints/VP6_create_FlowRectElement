@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<VerificationPoint type="Visual" version="5">
+    <Description/>
+    <Verification object="rect4_button_QGraphicsPathItem_2">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="QGraphicsPathItem" id="193dd192050">
+                            <image type="PNG">iVBORw0KGgoAAAANSUhEUgAAAIEAAACBCAIAAABowk4HAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACF0lEQVR4nO3aMQriQABG4ckqpvUCCvZ6Cs9gKeoR7CztPIa1jWfQO2gfGzuJMDYRZLYILCxhF3YtnuD7utGQDLz2z/b7/XK5TCmFhpTS8/nsdDpZljX//Se+qmk6na5WqxBCyPP8zc/rv+12uxhju6qq+jybzdgLfY+iKI7HYwihLMsQQrv+dbvdzudz8FpfpSiKwWDw6/gDvIpqNuDZgGcDng14NuDZgGcDng14NuDZgGcDng14NuDZgGcDng14NuDZgPR4PG63mw1IZVler1cbkHq93mg0sgHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwbkNx48dx48dx4fQob8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GxAcuPFc+PFc+P1KWzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHJjRfPjRfPjdensAHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBjwb8GzAswHPBiQ3Xjw3Xrx649WuD4vFYr1eo/f5IpfL5bdzv9+HbqJwOBxijNn5fN5sNiml5hOv1+t+v3e73Var9ebHfFXTZDIZj8chhCzG+KeHqqo6nU7D4TDP8zev6Kv+4ifi+MznTBWwJQAAAABJRU5ErkJggg==</image>
+                            <superclass>
+                                <class>QAbstractGraphicsShapeItem</class>
+                                <class>QGraphicsItem</class>
+                            </superclass>
+                            <abstractProperties>
+                                <visual isTopLevel="1"/>
+                                <geometry isRelative="0">
+                                    <x>237</x>
+                                    <y>241</y>
+                                    <height>103</height>
+                                    <width>103</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="zValue">
+                                    <string>2</string>
+                                </property>
+                                <property name="selected">
+                                    <string>false</string>
+                                </property>
+                                <property name="toolTip"/>
+                                <property name="opacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="scale">
+                                    <string>1</string>
+                                </property>
+                                <property name="rotation">
+                                    <string>0</string>
+                                </property>
+                                <property name="obscured">
+                                    <string>false</string>
+                                </property>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="userType">
+                                    <string>-1</string>
+                                </property>
+                                <property name="type">
+                                    <string>2</string>
+                                </property>
+                            </properties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying"/>
+            <check type="content"/>
+            <check type="geometry">
+                <PropertyVerification element-id="193dd192050">
+                    <VerifyProperty type="equal" name="x"/>
+                    <VerifyProperty type="equal" name="y"/>
+                    <VerifyProperty type="equal" name="width"/>
+                    <VerifyProperty type="equal" name="height"/>
+                </PropertyVerification>
+            </check>
+        </visual>
+    </Verification>
+</VerificationPoint>

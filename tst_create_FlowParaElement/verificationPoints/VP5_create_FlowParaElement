@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<VerificationPoint type="Visual" version="5">
+    <Description/>
+    <Verification object="rect4_button_QGraphicsPathItem_2">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="QGraphicsPathItem" id="193dd17c310">
+                            <image type="PNG">iVBORw0KGgoAAAANSUhEUgAAAJ8AAABiCAIAAADBdZZwAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFOUlEQVR4nO2cO0szQRhGn4SojYhgrBQkjZVCsBHRBEVQEC8oWNjY+wv8Iaks1U7FG9hYiCIGSSemFSzUqCgIEvASxq9YWPIlm81eZvZtnlMF3Z0RD5wddicb+/z8hGe+v7+LxeLAwEBbW1vTg//+/jY2NnK5XKPf/vz8tLa2xmIx738Ah/JycCwWW19fX11djZmzm8/np6envQ9O9HJ7e5swN/rBwYH1YWZmpru729xEpJrNzU3rQ3t7uym7SqnDw0MAk5OTJycnhmYhNSilTk9PS6XS+Ph4MpmMG5rm+vr6+fkZwPLysqEpSD1XV1elUgnA4uIiAFN2rSzH4/GlpSVDU5B6dnd3AcTj8fn5eRiya2d5YmKCV9zIUErt7e0ByGazyWQShuwyyyLUZBmG7DLLItRkGSbsMssi1GcZJuwyyyLUZxkm7DLLItRnGdrtMssiOGYZ2u0yyyI4Zhna7TLLIjhmGXrtMssiNMoy9NpllkVolGXotcssi9Aoy9Bol1kWwSXL0GiXWRbBJcvQaJdZFsEly9Bll1kWwT3LABLv7+/eh6tUKgA+Pj4Sif+27BQKBWY5euwsT01NOXpMPD09+R309fW15id2H5jlKLH/7el02tFjYnBw0Ptw1o7X/v7+6h2vSqnLy0swy9FSneVMJuN4jIbrLlfLIrivli002OVqWQT31bJFWLtcLYvQdLVsEdYusyyClywjvF1mWQQvWUZIu8yyCB6zjJB2mWURPGYZIe0yyyJ4zDLC2GWWRfCeZYSxyyyL4D3LCGOXWRbBe5YR2C6zLIKvLCOwXWZZBF9ZRmC7zLIIvrKMYHaZZRH8ZhnB7HInhgh+s4xgdo+OjsAsR47fLCOAXaXU8fExmOVoCZBlBLBbLBZfXl7ALEdLgCwjgN3z83Mwy5ETIMvwa1cpdXFxAWY5WoJlGX7tFgoFa98ssxwlwbIMv7vVd3Z2wCxHjp3lTCbjy5eP3epKKet9nsxylNhZHhoa+vr68vXtAh+71fP5PLMcPXaWV1ZWfH21AL6uu7y3LIKd5dnZWb/nerXLe8si2FlOp9NdXV1+T/dql4/8RLCzPD4+HuB0r3aZZRHsLGez2QCne7LLLItgZ3lsbKyzszPACJ7sMssi2FleWFgINoInu8yyCGFWyxbN7TLLIlTfWw6wWrZobpdZFiHwveVqmttllkUI9sivhiZ2mWURAj/yq6GJXWZZBC1ZRlO7zLIIWrIMd7vMsgi6sgx3u8yyCLqyDHe7zLIIurIMF7vMsggaswwXu8yyCBqzDBe7zLIIGrOMRnaZZRH0ZhmN7DLLIujNMhrZZZZF0JtlOO5WV0rt7++DWY4WO8sjIyOxWKzaS6NX2jfFYbf6zc2N9fZ0ZjlK7CyPjo46bkmvf6V9Uxx2q29tbYFZjhw7y2trazVLKsdX2nuh9rrL1bII2lfLFrV2uVoWQftq2aLWLlfLImhfLVv8Z5dZFsFQllFjl1kWwVCWUWOXWRbBUJZRbZdZFsFcllFtl1kWwVyWUW2XWRbBXJZh22WWRTCaZdh2mWURjGYZtl1mWQSjWYZll1kWwXSWYdlllkUwnWVYdpllEUxnGUCcWRYhgiwDiDPLIkSQZQBxZlmECLIMIGH1IZVKlcvlcrlsbiZio5TK5XIwnGUAibe3NwB3d3epVMrcNMQRo1kGEB8eHjY6AWlEX19f4BdReSSxvb19dnbm8ejf39/Hx8eenp6WlpaQE3Ooubm5jo6OkLO4E7u/v/d+dKVSeXh46O3t9bttmkOJDPUPLr1zMTHLB7AAAAAASUVORK5CYII=</image>
+                            <superclass>
+                                <class>QAbstractGraphicsShapeItem</class>
+                                <class>QGraphicsItem</class>
+                            </superclass>
+                            <abstractProperties>
+                                <visual isTopLevel="1"/>
+                                <geometry isRelative="0">
+                                    <x>212</x>
+                                    <y>241</y>
+                                    <height>78</height>
+                                    <width>127</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="zValue">
+                                    <string>2</string>
+                                </property>
+                                <property name="toolTip"/>
+                                <property name="rotation">
+                                    <string>0</string>
+                                </property>
+                                <property name="userType">
+                                    <string>-1</string>
+                                </property>
+                                <property name="obscured">
+                                    <string>false</string>
+                                </property>
+                                <property name="selected">
+                                    <string>false</string>
+                                </property>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="opacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="scale">
+                                    <string>1</string>
+                                </property>
+                                <property name="type">
+                                    <string>2</string>
+                                </property>
+                            </properties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying"/>
+            <check type="content"/>
+            <check type="geometry">
+                <PropertyVerification element-id="193dd17c310">
+                    <VerifyProperty name="x" type="equal"/>
+                    <VerifyProperty name="y" type="equal"/>
+                    <VerifyProperty name="width" type="equal"/>
+                    <VerifyProperty name="height" type="equal"/>
+                </PropertyVerification>
+            </check>
+        </visual>
+    </Verification>
+</VerificationPoint>

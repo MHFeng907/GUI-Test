@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VerificationPoint version="5" type="Visual">
+    <Description />
+    <Verification object="rect4_button_Text_here_GraphicsTextItem">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="GraphicsTextItem" id="193dd83006b">
+                            <image type="PNG">iVBORw0KGgoAAAANSUhEUgAAAHcAAAAuCAIAAACd2hHiAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEDUlEQVR4nO2aQWvjRhiGXxc52cOe9t5S8Ci6xD/A91IU7MMe0sLuP0iQqhRBj/0Fa7quRC/tqccSmoW12cGnhUL2B9iXrCY5LYE1pGQbWnCcOD1IsmXFtkYee5ps5zlZ8nzfvPNq9M1IqHBxcQE++v1+t9vd3NxcX1/nDFGpwlSfCKZT8KBcloFyWQbKZRkol2WgXJaBclkGymUZKJdloFyWgXJZBvfP5cCrGoZhOPS/FpIDbdYfgVet+Sx55ubmZjAYFIvFQqEQnSJWs2XrKxX4UXBX5nI4Q+/VBM2BdnZ2NvWPR09/PXw6Pjz55cmTn09Qcf/44StNS9wBs+LncnV1BeD8/DxOdfL7y7fDIfp/Zac7/2cwTDS9lWpxVpdKOz095QnrfegPh0MAvV5PUME45zhV70P/+voaf/+ZLWdq09WoWloqrVwu8wQ8eP1Q07QBsLGxMeUlN3Wiu52vUocvuROpHrx+WCwW8ejzbDmppi+tjW9ag2KxuPXj24Y5I4ZPXr/ff/X9F98dvNft1kSrnKO7PUDhupwqqMyvJQ+pYxiGYRhVL0gGtd3y9vZ2ufzYC8IW0UIbN0+3nw51DMNw24mj22Hz5Y37rHoBdcvlb397B4CxY+5wLsRcHm1EzMZRSNMiAKgTjddsHDVMAMzfGxsQeD+1AVTqnRe2HkaGYeM02TOGeVWHEqvZ6XT29/cPdkpId8MhL5nP99pAxd3vdA5CMbnC5yPicuDt+QwgVvNodK/qdqtpEYD5fnTFzUbkc3Qi8Pb8Y6Diul8K9A3GSGN8Mcjui1ACozQ2gE9enI5SUu903AoAYttmzvAMBFwOKGUATDs173TTJADoq1hI5DP1vACgvs+A0s7XlcV7BgBiWZNV2NwKbY7vdm55o3wTVz1n+HwWdzmWsTVryUkQ+sz8vWrVoQDZebb76cIdhxA9XVNKhCwob0q+vOHzEd0YgjqGwdHMbDRMw6GMAcR6vkvQ7Yr2zAWnPBBSEgnPQNjleH3LIgjix3XGjoHPRPvlhFfeasJjFq8Yuk4AgAU8yy11aj6Layl1Rtuv1ZFL3tLDUwisfmEdTCzqM6GOQwGYtm2HC2Hbdd8s3vGy5a0ifBIBl6PVNrVHDQn3E9HvyOPQYNOyCIB2vT7F5yVNnVzyBMMDr5r9mCKyX9bt51aopGakGPc76XEUVQLwpp6oG6Mx1XI8+y1DnvDoaj7LfkwRe/bT7db01SHaZgZe1aFIb251+9lOCUDbfTwSF49pqWTJEw+f3D3OpKC++ZSQ6q68xf+4US7LQLksA+WyDJTLMlAuy0C5LAPlsgyUyzKY+dXLbe7F9yV3M1Xh8PCQP/jy8nJtbU1Qwf8wlXqPISOVqssyUC7LQLksg38BY+7ZNg5U7iUAAAAASUVORK5CYII=</image>
+                            <superclass>
+                                <class>QGraphicsTextItem</class>
+                                <class>QGraphicsObject</class>
+                                <class>QObject</class>
+                            </superclass>
+                            <abstractProperties>
+                                <visual isTopLevel="1" />
+                                <geometry isRelative="0">
+                                    <x>413</x>
+                                    <y>366</y>
+                                    <height>37</height>
+                                    <width>95</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="userType">
+                                    <string>-1</string>
+                                </property>
+                                <property name="opacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="scale">
+                                    <string>1</string>
+                                </property>
+                                <property name="obscured">
+                                    <string>false</string>
+                                </property>
+                                <property name="selected">
+                                    <string>false</string>
+                                </property>
+                                <property name="toolTip" />
+                                <property name="zValue">
+                                    <string>2</string>
+                                </property>
+                                <property name="rotation">
+                                    <string>0</string>
+                                </property>
+                                <property name="type">
+                                    <string>8</string>
+                                </property>
+                                <property name="editable">
+                                    <string>false</string>
+                                </property>
+                                <property name="text">
+                                    <string>Text here.</string>
+                                </property>
+                            </properties>
+                            <identifyingProperties>
+                                <property name="objectName" />
+                            </identifyingProperties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying" />
+            <check type="content">
+                <PropertyVerification element-id="193dd83006b">
+                    <VerifyProperty name="enabled" type="equal" />
+                    <VerifyProperty name="text" type="equal" />
+                    <VerifyProperty name="toolTip" type="equal" />
+                </PropertyVerification>
+            </check>
+            <check type="geometry">
+                <PropertyVerification element-id="193dd83006b">
+                    <VerifyProperty name="height" type="equal" />
+                    <VerifyProperty name="width" type="equal" />
+                    <VerifyProperty name="x" type="equal" />
+                    <VerifyProperty name="y" type="equal" />
+                </PropertyVerification>
+            </check>
+            <check type="screenshot" />
+            <check type="subtree" />
+        </visual>
+    </Verification>
+</VerificationPoint>

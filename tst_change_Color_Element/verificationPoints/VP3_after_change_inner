@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<VerificationPoint type="Visual" version="5">
+    <Description/>
+    <Verification object="rect4_button_QGraphicsPathItem_7">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="QGraphicsPathItem" id="193e9579307">
+                            <image type="PNG">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</image>
+                            <superclass>
+                                <class>QAbstractGraphicsShapeItem</class>
+                                <class>QGraphicsItem</class>
+                            </superclass>
+                            <abstractProperties>
+                                <visual isTopLevel="1"/>
+                                <geometry isRelative="0">
+                                    <x>252</x>
+                                    <y>241</y>
+                                    <height>103</height>
+                                    <width>269</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="selected">
+                                    <string>true</string>
+                                </property>
+                                <property name="scale">
+                                    <string>1</string>
+                                </property>
+                                <property name="userType">
+                                    <string>-1</string>
+                                </property>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="toolTip"/>
+                                <property name="obscured">
+                                    <string>false</string>
+                                </property>
+                                <property name="zValue">
+                                    <string>4</string>
+                                </property>
+                                <property name="type">
+                                    <string>2</string>
+                                </property>
+                                <property name="opacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="rotation">
+                                    <string>0</string>
+                                </property>
+                            </properties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying"/>
+            <check type="content"/>
+            <check type="geometry">
+                <PropertyVerification element-id="193e9579307">
+                    <VerifyProperty name="x" type="equal"/>
+                    <VerifyProperty name="y" type="equal"/>
+                    <VerifyProperty name="width" type="equal"/>
+                    <VerifyProperty name="height" type="equal"/>
+                </PropertyVerification>
+            </check>
+        </visual>
+    </Verification>
+</VerificationPoint>

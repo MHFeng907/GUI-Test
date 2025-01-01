@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<VerificationPoint version="5" type="Visual">
+    <Description/>
+    <Verification object="rect4_button_QGraphicsPathItem_2">
+        <visual>
+            <ui version="1.0">
+                <execution>
+                    <state>
+                        <element class="QGraphicsPathItem" id="193dcf380c1">
+                            <image type="PNG">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</image>
+                            <superclass>
+                                <class>QAbstractGraphicsShapeItem</class>
+                                <class>QGraphicsItem</class>
+                            </superclass>
+                            <abstractProperties>
+                                <visual isTopLevel="1"/>
+                                <geometry isRelative="0">
+                                    <x>238</x>
+                                    <y>242</y>
+                                    <height>102</height>
+                                    <width>202</width>
+                                </geometry>
+                            </abstractProperties>
+                            <properties>
+                                <property name="scale">
+                                    <string>1</string>
+                                </property>
+                                <property name="selected">
+                                    <string>false</string>
+                                </property>
+                                <property name="obscured">
+                                    <string>false</string>
+                                </property>
+                                <property name="toolTip"/>
+                                <property name="enabled">
+                                    <string>true</string>
+                                </property>
+                                <property name="opacity">
+                                    <string>1</string>
+                                </property>
+                                <property name="zValue">
+                                    <string>2</string>
+                                </property>
+                                <property name="rotation">
+                                    <string>0</string>
+                                </property>
+                                <property name="type">
+                                    <string>2</string>
+                                </property>
+                                <property name="userType">
+                                    <string>-1</string>
+                                </property>
+                            </properties>
+                        </element>
+                    </state>
+                </execution>
+            </ui>
+            <check type="identifying"/>
+            <check type="content"/>
+            <check type="geometry">
+                <PropertyVerification element-id="193dcf380c1">
+                    <VerifyProperty name="x" type="equal"/>
+                    <VerifyProperty name="y" type="equal"/>
+                    <VerifyProperty name="width" type="equal"/>
+                    <VerifyProperty name="height" type="equal"/>
+                </PropertyVerification>
+            </check>
+        </visual>
+    </Verification>
+</VerificationPoint>

@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+
+import names
+
+
+def main():
+    startApplication("FlowelementChart")
+    clickButton(waitForObject(names.mainWidget_rect4_button_QPushButton))
+    test.vp("VP1_normal")
+    mouseClick(waitForObject(names.rect4_button_QGraphicsPathItem_2), 136, 45, Qt.NoModifier, Qt.LeftButton)
+    test.compare(waitForObjectExists(names.rect4_button_QGraphicsPathItem_2).selected, True)
+    dragItemBy(waitForObject(names.rect4_button_QGraphicsRectItem_5), 0, 1, 260, 157, 1, Qt.LeftButton)
+    test.vp("VP1_big")
+    dragItemBy(waitForObject(names.rect4_button_QGraphicsRectItem_5), 4, 1, -404, -232, 1, Qt.LeftButton)
+    test.vp("VP1_small")
+    dragItemBy(waitForObject(names.rect4_button_QGraphicsPathItem_2), 49, 6, 348, 33, 1, Qt.LeftButton)
+    test.vp("VP1_move")
+    mouseClick(waitForObject(names.o_QInputDialog), 534, 265, Qt.NoModifier, Qt.LeftButton)
+    clickButton(waitForObject(names.mainWidget_rhombus_button_QPushButton))
+    clickButton(waitForObject(names.mainWidget_parallelogram_button_QPushButton))
+    mouseClick(waitForObject(names.rect4_button_QGraphicsPathItem_9), 81, 39, Qt.NoModifier, Qt.LeftButton)
+    dragItemBy(waitForObject(names.rect4_button_QGraphicsPathItem_9), 69, 33, 257, 199, 1, Qt.LeftButton)
+    mouseClick(waitForObject(names.o_QInputDialog), 660, 308, Qt.NoModifier, Qt.LeftButton)
+    clickButton(waitForObject(names.mainWidget_arrow_button_QPushButton_2))
+    mouseClick(waitForObject(names.rect4_button_QGraphicsPathItem), 156, 52, Qt.NoModifier, Qt.LeftButton)
+    mouseClick(waitForObject(names.rect4_button_QGraphicsPathItem_9), 69, 20, Qt.NoModifier, Qt.LeftButton)
+    test.vp("VP1_multi")
+    mouseDrag(waitForObject(names.o_QInputDialog), 92, 37, 623, 432, 1, Qt.LeftButton)
+    clickButton(waitForObject(names.mainWidget_arrow_button_QPushButton_2))
+    mouseDrag(waitForObject(names.o_QInputDialog), 114, 37, 626, 412, 1, Qt.LeftButton)
+    test.vp("VP1_multi_select")
+    test.compare(waitForObjectExists(names.rect4_button_QGraphicsPathItem).selected, True)
+    test.compare(waitForObjectExists(names.rect4_button_QGraphicsPathItem_3).selected, True)
+    test.compare(waitForObjectExists(names.rect4_button_QGraphicsPathItem_2).selected, True)
+    test.compare(waitForObjectExists(names.rect4_button_QGraphicsPathItem_9).selected, True)
